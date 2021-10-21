@@ -9,6 +9,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Courses from './pages/courses/Courses';
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
       <Route path="/content"><ComingSoon/></Route>
       <Route path="/videos"><ComingSoon/></Route>
       <Route path="/voice-overs-translations"><ComingSoon/></Route>
+      <Route path="/courses"><Courses/></Route>
       </Switch>
     </Router>
   );
