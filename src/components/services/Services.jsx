@@ -4,10 +4,13 @@ import appDevelopmentImg from '../../img/services-icon/app-devlopment.png';
 import contentDevelopmentImg from '../../img/services-icon/content-development.png'
 import translationImg from '../../img/services-icon/translation.png'
 import videoDevelopmentImg from '../../img/services-icon/video-development.png';
+import {
+  Link
+} from "react-router-dom";
 
 export const Services = () => {
     return (
-        <section id="services" className="services">
+      <section id="services" className="services">
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
@@ -18,9 +21,11 @@ export const Services = () => {
         <div className="row">
           <div className="col-md-6 my-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="100">
             <div className="icon-box">
-              <div className="icon"><img src={contentDevelopmentImg} alt=""/></div>
-              <h4>Content Development</h4>
-              <p>We design and develop e-Learning, Website, Training and Marketing content to elevate your brand image and ethos.</p>
+              <Link to="/courses">
+                <div className="icon"><img src={contentDevelopmentImg} alt=""/></div>
+                <h4>Content Development</h4>
+                <p>We design and develop e-Learning, Website, Training and Marketing content to elevate your brand image and ethos.</p>
+              </Link>
             </div>
           </div>
 
