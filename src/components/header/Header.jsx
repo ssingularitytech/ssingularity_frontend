@@ -60,11 +60,6 @@ export const Header = () => {
                 </a>
           </li>
           <li>
-            <a onClick={() => { onMenuBtnClick() }} className="nav-link scrollto" href="#team">
-              Our Team
-                </a>
-          </li>
-          <li>
             <a onClick={() => { onMenuBtnClick() }} className="nav-link scrollto" href="#contact">
               Contact Us
                 </a>
@@ -93,11 +88,6 @@ export const Header = () => {
           <li>
             <Link onClick={() => { onMenuBtnClick() }} className="nav-link scrollto" to="/">
               Our Portfolio
-                </Link>
-          </li>
-          <li>
-            <Link onClick={() => { onMenuBtnClick() }} className="nav-link scrollto" to="/">
-              Our Team
                 </Link>
           </li>
           <li>
