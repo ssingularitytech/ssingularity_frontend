@@ -41,7 +41,6 @@ export const Home = () => {
         <Services />
         <Portfolio />
         <CallToAction />
-        <Team />
         <Contact />
         <Footer />
         <BackToTop />
