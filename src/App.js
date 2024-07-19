@@ -10,7 +10,10 @@ import {
   Route,
 } from "react-router-dom";
 import Courses from './pages/courses/Courses';
-
+import Privacy from './components/Privacy/Privacy';
+import Cancellation from './components/Cancellation/Cancellation';
+import Shipping from './components/Shipping/Shipping';
+import Terms from './components/Terms/Terms';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -34,6 +37,10 @@ function App() {
       <Route path="/videos"><ComingSoon/></Route>
       <Route path="/voice-overs-translations"><ComingSoon/></Route>
       <Route path="/courses"><Courses/></Route>
+      <Route path="/privacy"><Privacy/></Route>
+      <Route path="/Cancellation"><Cancellation/></Route>
+      <Route path="/Shipping"><Shipping/></Route>
+      <Route path="/terms"><Terms/></Route>
       </Switch>
     </Router>
   );
